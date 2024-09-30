@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Open Sans";
+}
+
+/* tamaño texto */
+.font-size-xsmall {
+    font-size: 10px;
+    color: #bec1bb;
+}
+
+.font-size-small {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.font-size-medium {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.font-size-large {
+    font-size: 45px;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
+/* Seccion Contacto */
+
+.cont-contactos {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 17rem;
+    border-right: 1px solid #bec1bb;
+}
+
+.cont-usuarios {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid #e8ebe4;
+}
+.cont-boton {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    border: 1px solid #e8ebe4;
+    padding: 2rem;
+}
+
+.cont-usuario {
+    display: flex;
+    align-items: center;
+}
+
+.cont-datos {
+    margin-left: 1rem;
+}
+
+.imagenes-usuarios {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.img-pequeña {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.cont-iconos {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.cont-iconos a {
+    color: #cdc3e6;
+}
+
+/* Seccion Principal */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main img {
+    width: 16rem;
+    margin-bottom: 1.5rem;
+}
+
+.descripcion {
+    width: 35rem;
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
+/*BOTON*/
+
+.boton {
+    background-color: #a491d2;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 3rem;
+}
+
+.boton:hover {
+    background-color: #cdc3e6;
+}
+
+.boton:focus {
+    background-color: #bec1bb;
+}
